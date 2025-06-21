@@ -1,44 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Principal - Suits</title>
+    <meta
+      name="description"
+      content="Tudo sobre a série Suits: enredo, críticas, trailer e muito mais."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="assets/images/logo.png"
+          width="100"
+          alt="Logo do site sobre Suits"
+        />
+      </div>
+      <div class="bar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre_">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </header>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <main class="content">
+      <nav class="sidebar" aria-label="Menu lateral">
+        <h2>Série de TV</h2>
+        <ul>
+          <li><a href="#suits">Suits</a></li>
+        </ul>
+      </nav>
 
-    <div class="bar"></div>
+      <section class="main">
+        <article>
+          <header>
+            <h1>Tudo Sobre Suits</h1>
+          </header>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+          <figure>
+            <picture>
+              <img
+                src="assets/images/image_suits.jpg"
+                alt="Capa da Série Suits"
+              />
+            </picture>
+            <figcaption>Legenda: Capa da Série Suits</figcaption>
+          </figure>
 
-        <div class="main">
-            
-        </div>
+          <h2 id="sobre">Sobre</h2>
+          <p>
+            Suits (Homens de Terno) é uma série de televisão de drama legal
+            americano, criada e escrita por Aaron Korsh. A série estreou em 23
+            de junho de 2011, no canal USA Network, onde é exibida atualmente.
+            <br />Ambientada em um escritório de advocacia fictício em Nova
+            Iorque, a trama acompanha o advogado Mike Ross, interpretado por
+            <a
+              href="https://pt.wikipedia.org/wiki/Patrick_J._Adams"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Patrick J. Adams</a
+            >, e o renomado advogado Harvey Specter, interpretado por
+            <a
+              href="https://pt.wikipedia.org/wiki/Gabriel_Macht"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Gabriel Macht</a
+            >.
+          </p>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+          <section id="enredo">
+            <h2>Enredo</h2>
+            <p>
+              A série gira em torno de casos jurídicos resolvidos com um toque
+              de humor sarcástico, ambientados no escritório "Pearson Hardman".
+              Michael "Mike" Ross é um jovem com memória excepcional, contratado
+              por Harvey Specter, um dos melhores advogados de Manhattan. Devido
+              à política da firma que só aceita ex-alunos de Harvard, ambos
+              mentem sobre a formação de Mike. Com o tempo, desenvolve-se uma
+              forte amizade entre os dois.
+            </p>
+          </section>
 
-    <div class="footer">
+          <section id="critica">
+            <h2>Crítica</h2>
+            <blockquote>
+              <p>
+                "Uma nova série de tribunais estreou na quinta na USA Network,
+                irrompe a partir de um Monte Vesuvius de absurdos, e ainda com
+                tantas outras coisas no estábulo da USA, se trata relativamente
+                de boa fé - não apenas com um sentido intratável de sua própria
+                diversão, mas também com uma crença mais barata na viabilidade
+                de renovação."
+                <br />
+                <cite>– Ginia Bellafante, The New York Times</cite>
+              </p>
+            </blockquote>
+            <p>
+              BuddyTV descreveu Suits como "um excelente show de verão e, mais
+              que isso, um verdadeiro pedaço de alta qualidade da televisão."
+            </p>
+          </section>
 
-    </div>
-</body>
+          <section id="trailer">
+            <h2>Trailer</h2>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/cUnkjEIW2-o?si=w2Z5YLuzUfnoThWy"
+              title="Trailer da série Suits"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </section>
+        </article>
+      </section>
+
+      <aside class="anchors">
+        <h2>Neste Artigo</h2>
+        <ul>
+          <li><a href="#sobre">Sobre a Série</a></li>
+          <li><a href="#enredo">Enredo</a></li>
+          <li><a href="#critica">Crítica</a></li>
+          <li><a href="#trailer">Trailer</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Seu Site. Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
