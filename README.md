@@ -1,7 +1,5 @@
 # Projeto Base Wikipedia - Página Suits
 
----
-
 ## 📄 Descrição do Projeto
 
 Este projeto consiste na recriação de uma página de conteúdo inspirada no layout da Wikipedia, com foco na série de televisão "Suits". O objetivo principal é demonstrar o uso de **HTML semântico** e **CSS** para criar uma estrutura de página acessível e responsiva, explorando conceitos como layout de grade (CSS Grid) e navegação interna.
